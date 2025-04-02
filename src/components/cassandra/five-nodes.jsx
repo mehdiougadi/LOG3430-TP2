@@ -81,7 +81,7 @@ const FiveNodesDiagrams = () => {
 
   return (
     <div style={{ maxWidth: '600px', margin: '0 auto', padding: '16px' }}>
-      <h1 className="text-2xl font-bold mb-4">Cassandra Performance Dashboard</h1>
+      <h1 className="text-2xl font-bold mb-4">Cassandra Performance Dashboard (5 Nodes)</h1>
       
       {/* 1. Cluster Load Distribution */}
       <div className="bg-white p-4 rounded shadow">
