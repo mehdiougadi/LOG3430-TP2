@@ -80,7 +80,7 @@ const CassandraPerformanceDashboard = () => {
   ];
 
   return (
-    <div className="p-4 space-y-8">
+    <div style={{ maxWidth: '600px', margin: '0 auto', padding: '16px' }}>
       <h1 className="text-2xl font-bold mb-4">Cassandra Performance Dashboard</h1>
       
       {/* 1. Cluster Load Distribution */}
