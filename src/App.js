@@ -6,6 +6,8 @@ import MongoDBFiveNodesDiagrams  from './components/mongodb/five-nodes';
 import RedisThreeNodesDiagrams from './components/redis/three-nodes';
 import RedisFiveNodesDiagrams  from './components/redis/five-nodes';
 import DatabaseComparison3Nodes from './components/compare-three';
+import DatabaseComparisonFiveNodes from './components/compare-five';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
       <RedisThreeNodesDiagrams />
       <RedisFiveNodesDiagrams />
       <DatabaseComparison3Nodes />
+      <DatabaseComparisonFiveNodes />
     </div>
   );
 }
