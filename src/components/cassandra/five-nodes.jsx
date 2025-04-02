@@ -4,7 +4,7 @@ import {
   ScatterChart, Scatter, ZAxis, ComposedChart, Line
 } from 'recharts';
 
-const CassandraPerformanceDashboard = () => {
+const FiveNodesDiagrams = () => {
   // Node load data
   const loadData = [
     { node: 'cassandra-node1', load: 262.77 },
@@ -196,4 +196,4 @@ const CassandraPerformanceDashboard = () => {
   );
 };
 
-export default CassandraPerformanceDashboard;
+export default FiveNodesDiagrams;

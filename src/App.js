@@ -1,10 +1,10 @@
 import './App.css';
-import CassandraPerformanceThreeNodes from './CassandraPerformanceThreeNodes';
+import FiveNodesDiagrams from './components/cassandra/five-nodes';
 
 function App() {
   return (
     <div className="App">
-      <CassandraPerformanceThreeNodes />
+      <FiveNodesDiagrams />
     </div>
   );
 }
